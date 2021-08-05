@@ -63,8 +63,8 @@ class Swig(AutotoolsPackage, SourceforgePackage):
     @run_after('install')
     def create_symlink(self):
         # CMake compatibility: see https://github.com/spack/spack/pull/6240
-        with working_dir(self.prefix.bin):
-            os.symlink('swig', 'swig{0}'.format(self.spec.version.up_to(2)))
+        #with working_dir(self.prefix.bin):
+        #    os.symlink('swig', 'swig{0}'.format(self.spec.version.up_to(2)))
 
     for _version in _autoconf_versions:
         @when(_version)
