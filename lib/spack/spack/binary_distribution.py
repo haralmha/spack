@@ -1390,6 +1390,11 @@ def extract_tarball(spec, filename, allow_root=False, unsigned=False,
     tty.debug(info %
               (old_relative_prefix, new_relative_prefix, rel))
 
+# Following example from tarfile documentaion
+# https://docs.python.org/3/library/tarfile.html#examples
+# and using example of stripping leading path as described here
+# https://stackoverflow.com/questions/8008829/extract-only-a-single-directory-from-tar/43094365#43094365
+
     def strip_leading_path(tf):
         for member in tf.getmembers():
             member.path = os.path.sep.join(member.path.split(os.path.sep)[1:])
