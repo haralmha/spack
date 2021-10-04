@@ -29,6 +29,7 @@ class PyUproot(PythonPackage):
     version('4.0.8',  sha256='98282142725d678815ec6f8c76f42cfb3539c9c3d5b5561b8ef2129ac5a86bcd')
     version('4.0.7',  sha256='7adb688601fda1e9ab8eeb9a9de681f645827dac0943c6180cf85f03f73fb789')
     version('4.0.6',  sha256='1bea2ccc899c6959fb2af69d7e5d1e2df210caab30d3510e26f3fc07c143c37e')
+    version('4.0.1',  sha256='e93ad76f71e6c6033ce062b1c0690eddc9103fd694b641467de531f665eddf11')
 
     variant('xrootd', default=True,
             description='Build with xrootd support ')

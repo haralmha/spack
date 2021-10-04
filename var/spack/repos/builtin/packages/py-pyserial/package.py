@@ -12,6 +12,7 @@ class PyPyserial(PythonPackage):
     homepage = "https://github.com/pyserial/pyserial"
     pypi = "pyserial/pyserial-3.1.1.tar.gz"
 
+    version('3.4',   sha256='6e2d401fdee0eab996cf734e67773a0143b932772ca8b42451440cfed942c627')
     version('3.1.1', sha256='d657051249ce3cbd0446bcfb2be07a435e1029da4d63f53ed9b4cdde7373364c')
 
     depends_on('py-setuptools', type='build')

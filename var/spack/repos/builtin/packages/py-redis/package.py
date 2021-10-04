@@ -14,6 +14,7 @@ class PyRedis(PythonPackage):
     version('3.5.3', sha256='0e7e0cfca8660dea8b7d5cd8c4f6c5e29e11f31158c0b0ae91a397f00e5a05a2')
     version('3.5.0', sha256='7378105cd8ea20c4edc49f028581e830c01ad5f00be851def0f4bc616a83cd89')
     version('3.3.8', sha256='98a22fb750c9b9bb46e75e945dc3f61d0ab30d06117cbb21ff9cd1d315fedd3b')
+    version('3.2.1', sha256='8ca418d2ddca1b1a850afa1680a7d2fd1f3322739271de4b704e0d4668449273')
 
     variant("hiredis", default=False, description="Support for hiredis which speeds up parsing of multi bulk replies")
 

@@ -14,6 +14,7 @@ class PyParamiko(PythonPackage):
     pypi = "paramiko/paramiko-2.7.1.tar.gz"
 
     version('2.7.1', sha256='920492895db8013f6cc0179293147f830b8c7b21fdfc839b6bad760c27459d9f')
+    version('2.4.2', sha256='a8975a7df3560c9f1e2b43dc54ebd40fd00a7017392ca5445ce7df409f900fcb')
     version('2.1.2', sha256='5fae49bed35e2e3d45c4f7b0db2d38b9ca626312d91119b3991d0ecf8125e310')
 
     variant('invoke', default=False, description='Enable invoke support')

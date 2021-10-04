@@ -14,6 +14,7 @@ class PyLxml(PythonPackage):
     pypi = "lxml/lxml-4.6.1.tar.gz"
 
     version('4.6.3', sha256='39b78571b3b30645ac77b95f7c69d1bffc4cf8c3b157c435a34da72e78c82468')
+    version('4.6.2', sha256='cd11c7e8d21af997ee8079037fff88f16fda188a9776eb4b81c7e4c9c0a7d7fc')
     version('4.6.1', sha256='c152b2e93b639d1f36ec5a8ca24cde4a8eefb2b6b83668fcd8e83a67badcb367')
     version('4.5.2', sha256='cdc13a1682b2a6241080745b1953719e7fe0850b40a5c71ca574f090a1391df6')
     version('4.4.1', sha256='c81cb40bff373ab7a7446d6bbca0190bccc5be3448b47b51d729e37799bb5692')

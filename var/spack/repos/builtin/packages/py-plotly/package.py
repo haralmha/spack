@@ -13,6 +13,7 @@ class PyPlotly(PythonPackage):
     pypi = "plotly/plotly-2.2.0.tar.gz"
 
     version('5.2.2', sha256='809f0674a7991daaf4f287964d617d24e9fa44463acd5a5352ebd874cfd98b07')
+    version('4.5.0', sha256='bb5271f648913cf330a0de4ede3084cda848f8ad8b080330a0678e1b21df97b0')
     version('2.2.0', sha256='ca668911ffb4d11fed6d7fbb12236f8ecc6a7209db192326bcb64bdb41451a58')
 
     depends_on('python@3.6:', when='@5.2.2:', type=('build', 'run'))

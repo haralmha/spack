@@ -12,6 +12,7 @@ class PySend2trash(PythonPackage):
     homepage = "https://github.com/hsoft/send2trash"
     url      = "https://github.com/hsoft/send2trash/archive/1.5.0.tar.gz"
 
+    version('1.7.1', sha256='8f2287b6f0e822cabc1e65023f444960e121adee69603287f858afd349981c12')
     version('1.5.0', sha256='7cebc0ffc8b6d6e553bce9c6bb915614610ba2dec17c2f0643b1b97251da2a41')
 
     depends_on('py-setuptools', type='build')

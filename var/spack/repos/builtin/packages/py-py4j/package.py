@@ -13,6 +13,7 @@ class PyPy4j(PythonPackage):
     homepage = "https://www.py4j.org/"
     pypi = "py4j/py4j-0.10.4.zip"
 
+    version('0.10.9.1', sha256='7605e512bf9b002245f5a9121a8c2df9bfd1a6004fe6dd3ff29d46f901719d53')
     version('0.10.9',
             url='https://files.pythonhosted.org/packages/10/ed/9dad8808c34bc5b0b1a44b13c0bddeea0c8df59956eb20ac2fecc373f322/py4j-0.10.9.tar.gz',
             sha256='36ec57f43ff8ced260a18aa9a4e46c3500a730cac8860e259cbaa546c2b9db2f')

@@ -13,6 +13,7 @@ class PyNumba(PythonPackage):
     pypi = "numba/numba-0.35.0.tar.gz"
 
     version('0.54.0', sha256='bad6bd98ab2e41c34aa9c80b8d9737e07d92a53df4f74d3ada1458b0b516ccff')
+    version('0.51.2', sha256='16bd59572114adbf5f600ea383880d7b2071ae45477e84a24994e089ea390768')
     version('0.51.1', sha256='1e765b1a41535684bf3b0465c1d0a24dcbbff6af325270c8f4dad924c0940160')
     version('0.50.1', sha256='89e81b51b880f9b18c82b7095beaccc6856fcf84ba29c4f0ced42e4e5748a3a7')
     version('0.48.0', sha256='9d21bc77e67006b5723052840c88cc59248e079a907cc68f1a1a264e1eaba017')

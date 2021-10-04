@@ -13,6 +13,7 @@ class PyRise(PythonPackage):
     pypi = "rise/rise-5.6.1.tar.gz"
 
     version('5.6.1', sha256='1343f068d01adc4dd0226d9b278ce93fc92f365d827431a57e8d5679eb39f4d6')
+    version('5.5.0', sha256='975770de4db26d68a0ffbfc46cbc56d8796383a98acfdd19921438f58beb0521')
 
     depends_on('python@2.7.0:2.7,3.4:', type=('build', 'run'))
     depends_on('py-setuptools', type='build')

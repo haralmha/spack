@@ -10,6 +10,7 @@ class PyNbconvert(PythonPackage):
     homepage = "https://github.com/jupyter/nbconvert"
     pypi = "nbconvert/nbconvert-6.0.1.tar.gz"
 
+    version('6.1.0', sha256='d22a8ff202644d31db254d24d52c3a96c82156623fcd7c7f987bba2612303ec9')
     version('6.0.1', sha256='db94117fbac29153834447e31b30cda337d4450e46e0bdb1a36eafbbf4435156')
     version('5.6.0', sha256='427a468ec26e7d68a529b95f578d5cbf018cb4c1f889e897681c2b6d11897695')
     version('5.5.0', sha256='138381baa41d83584459b5cfecfc38c800ccf1f37d9ddd0bd440783346a4c39c')

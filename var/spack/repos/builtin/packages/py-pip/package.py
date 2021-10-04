@@ -13,6 +13,7 @@ class PyPip(PythonPackage):
     pypi = "pip/pip-20.2.tar.gz"
 
     version('21.1.2', sha256='eb5df6b9ab0af50fe1098a52fd439b04730b6e066887ff7497357b9ebd19f79b')
+    version('21.0.1', sha256='99bbde183ec5ec037318e774b0d8ae0a64352fe53b2c7fd630be1d07e94f41e5')
     version('20.2',   sha256='912935eb20ea6a3b5ed5810dde9754fde5563f5ca9be44a8a6e5da806ade970b')
     version('19.3',   sha256='324d234b8f6124846b4e390df255cacbe09ce22791c3b714aa1ea6e44a4f2861')
     version('19.1.1', sha256='44d3d7d3d30a1eb65c7e5ff1173cdf8f7467850605ac7cc3707b6064bddd0958')

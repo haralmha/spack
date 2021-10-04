@@ -15,6 +15,7 @@ class PyUncertainties(PythonPackage):
     pypi = "uncertainties/uncertainties-3.1.4.tar.gz"
 
     version('3.1.4', sha256='63548a94899f2a51eeb89b640f6ac311f481a8016b37dce157186e44619bc968')
+    version('3.1.2', sha256='ba07c17a8a78cb58a47cd373079c7ea459f8b26cd474e29163b6ba0d72856a1e')
 
     variant('optional', default=False, description='Enable extra features involving numpy')
     variant('docs',  default=False, description='Build with documentation')
